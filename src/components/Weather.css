@@ -1,0 +1,97 @@
+.weather {
+  padding: 20px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 600px;
+  height: 450px;
+  place-self: center;
+  color: white;
+}
+.search-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 10px;
+}
+.search-container input {
+  background-color: #fff;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+.search-container img {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.main-section {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.main-section .left-side {
+  width: 50%;
+  height: 90%;
+}
+.main-section .right-side {
+  width: 50%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-section .right-side img {
+  height: 200px;
+  width: 300px;
+}
+.main-section .right-side p {
+  font-size: 40px;
+  font-weight: 600;
+}
+.main-section .right-side .weather-text {
+  font-size: 25px;
+  font-weight: 600;
+}
+.weather-image-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+.left-side p {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 600;
+}
+.left-side .wind p {
+  font-size: 30px;
+}
+
+.left-side .temp p {
+  font-size: 30px;
+}
+.wind {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+.temp {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+}
